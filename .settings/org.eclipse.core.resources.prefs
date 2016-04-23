@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/com/test/base/SeleniumDriver.java=GBK
+encoding//src/com/test/testcases/Login.java=GBK
+encoding//src/com/test/util/ConnectMySQL.java=UTF-8
+encoding//src/com/test/util/ExcelReader.java=UTF-8
+encoding//src/com/test/util/ParseXml.java=UTF-8

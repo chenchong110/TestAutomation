@@ -1,0 +1,12 @@
+login_name:
+  type:id
+  value:username
+login_pwd:
+  type:id
+  value:password
+login_button:
+  type:name
+  value:submit
+error_message:
+  type:xpath
+  value:"html/body/div[2]/section/div[1]/strong"

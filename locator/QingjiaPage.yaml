@@ -1,0 +1,27 @@
+reason:
+  type:xpath
+  value:".//*[@id='xf-2-0-1']/div/input"
+qingjiatype:
+  type:xpath
+  value:".//*[@id='xf-2-1-1']/div/label[1]/input"
+start:
+  type:xpath
+  value:".//*[@id='xf-2-2-1']/div/div/span"
+starttime:
+  type:xpath
+  value:"html/body/div[5]/div[1]/table/tbody/tr[4]/td[5]"
+end:
+  type:xpath
+  value:".//*[@id='xf-2-3-1']/div/div/span"
+endtime:
+  type:xpath
+  value:"html/body/div[5]/div[1]/table/tbody/tr[4]/td[6]"
+config:
+  type:xpath
+  value:".//*[@id='confirmStartProcess']"
+submit:
+  type:xpath
+  value:".//*[@id='submitButton']"
+message:
+  type:xpath
+  value:".//*[@id='m-main']"

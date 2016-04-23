@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<common>
+	</common>
+	<testIllegalLogin>
+		<username>chenchong</username>
+		<password>123456</password>
+	</testIllegalLogin>
+</data>

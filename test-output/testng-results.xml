@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[2015-11-20 00:24:20 : 登录用户名为：chenchong]]>
+    </line>
+    <line>
+      <![CDATA[2015-11-20 00:24:20 : 登录密码为：111111]]>
+    </line>
+    <line>
+      <![CDATA[2015-11-20 00:24:26 : 常用流程为'请假流程']]>
+    </line>
+    <line>
+      <![CDATA[2015-11-20 00:24:43 : 登录用户名为：chenchong]]>
+    </line>
+    <line>
+      <![CDATA[2015-11-20 00:24:43 : 登录密码为：123456]]>
+    </line>
+    <line>
+      <![CDATA[2015-11-20 00:24:46 : 登录错误提示信息：'登陆失败']]>
+    </line>
+    <line>
+      <![CDATA[2015-11-20 00:25:23 : 流程发起的返回信息是：流程已发起]]>
+    </line>
+    <line>
+      <![CDATA[2015-11-20 00:25:54 : 手机号码为：15895875868,邮箱号码为：280207685@qq.com]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="115722" started-at="2015-11-19T16:24:01Z" finished-at="2015-11-19T16:25:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="115722" started-at="2015-11-19T16:24:01Z" finished-at="2015-11-19T16:25:57Z">
+      <class name="com.test.testcases.Login">
+        <test-method status="PASS" signature="initialDriver()[pri:0, instance:com.test.testcases.Login@18ee9d6]" name="initialDriver" is-config="true" duration-ms="16851" started-at="2015-11-20T00:24:01Z" finished-at="2015-11-20T00:24:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialDriver -->
+        <test-method status="PASS" signature="testLogin(java.util.Map)[pri:0, instance:com.test.testcases.Login@18ee9d6]" name="testLogin" duration-ms="8347" started-at="2015-11-20T00:24:18Z" data-provider="providerMethod" finished-at="2015-11-20T00:24:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{username=chenchong, password=111111, url=http://127.0.0.1:8080}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2015-11-20 00:24:20 : 登录用户名为：chenchong]]>
+            </line>
+            <line>
+              <![CDATA[2015-11-20 00:24:20 : 登录密码为：111111]]>
+            </line>
+            <line>
+              <![CDATA[2015-11-20 00:24:26 : 常用流程为'请假流程']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.test.testcases.Login@18ee9d6]" name="closeDriver" is-config="true" duration-ms="2622" started-at="2015-11-20T00:24:26Z" finished-at="2015-11-20T00:24:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.test.testcases.Login -->
+      <class name="com.test.testcases.EditUser">
+        <test-method status="PASS" signature="initialDriver()[pri:0, instance:com.test.testcases.EditUser@6d084b]" name="initialDriver" is-config="true" duration-ms="11795" started-at="2015-11-20T00:25:26Z" finished-at="2015-11-20T00:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialDriver -->
+        <test-method status="PASS" signature="testEditUser(java.util.Map)[pri:0, instance:com.test.testcases.EditUser@6d084b]" name="testEditUser" duration-ms="16521" started-at="2015-11-20T00:25:37Z" data-provider="providerMethod" finished-at="2015-11-20T00:25:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{username=chenchong, email=280207685@qq.com, telephone=15895875868, password=111111, url=http://127.0.0.1:8080}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2015-11-20 00:25:54 : 手机号码为：15895875868,邮箱号码为：280207685@qq.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testEditUser -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.test.testcases.EditUser@6d084b]" name="closeDriver" is-config="true" duration-ms="2621" started-at="2015-11-20T00:25:54Z" finished-at="2015-11-20T00:25:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.test.testcases.EditUser -->
+      <class name="com.test.testcases.IllegalLogin">
+        <test-method status="PASS" signature="initialDriver()[pri:0, instance:com.test.testcases.IllegalLogin@8fce95]" name="initialDriver" is-config="true" duration-ms="12014" started-at="2015-11-20T00:24:29Z" finished-at="2015-11-20T00:24:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialDriver -->
+        <test-method status="PASS" signature="testIllegalLogin(java.util.Map)[pri:0, instance:com.test.testcases.IllegalLogin@8fce95]" name="testIllegalLogin" duration-ms="5102" started-at="2015-11-20T00:24:41Z" data-provider="providerMethod" finished-at="2015-11-20T00:24:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{username=chenchong, password=123456, url=http://127.0.0.1:8080}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2015-11-20 00:24:43 : 登录用户名为：chenchong]]>
+            </line>
+            <line>
+              <![CDATA[2015-11-20 00:24:43 : 登录密码为：123456]]>
+            </line>
+            <line>
+              <![CDATA[2015-11-20 00:24:46 : 登录错误提示信息：'登陆失败']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testIllegalLogin -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.test.testcases.IllegalLogin@8fce95]" name="closeDriver" is-config="true" duration-ms="2528" started-at="2015-11-20T00:24:46Z" finished-at="2015-11-20T00:24:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.test.testcases.IllegalLogin -->
+      <class name="com.test.testcases.Qingjia">
+        <test-method status="PASS" signature="initialDriver()[pri:0, instance:com.test.testcases.Qingjia@152544e]" name="initialDriver" is-config="true" duration-ms="12233" started-at="2015-11-20T00:24:48Z" finished-at="2015-11-20T00:25:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialDriver -->
+        <test-method status="PASS" signature="testQingjia(java.util.Map)[pri:0, instance:com.test.testcases.Qingjia@152544e]" name="testQingjia" duration-ms="22261" started-at="2015-11-20T00:25:01Z" data-provider="providerMethod" finished-at="2015-11-20T00:25:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{username=chenchong, reason=go home, password=111111, url=http://127.0.0.1:8080}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2015-11-20 00:25:23 : 流程发起的返回信息是：流程已发起]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testQingjia -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.test.testcases.Qingjia@152544e]" name="closeDriver" is-config="true" duration-ms="2718" started-at="2015-11-20T00:25:23Z" finished-at="2015-11-20T00:25:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.test.testcases.Qingjia -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

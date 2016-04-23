@@ -1,0 +1,9 @@
+email:
+  type:xpath
+  value:".//*[@id='userBase_email']"
+cellphone:
+  type:xpath
+  value:".//*[@id='userBase_cellphone']"
+submit:
+  type:xpath
+  value:".//*[@id='submitButton']"
